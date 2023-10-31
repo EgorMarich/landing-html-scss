@@ -1,0 +1,30 @@
+.card-testimonials {
+    border-radius: 5px;
+    overflow: hidden;
+    max-width: 350px;
+
+    &:hover{
+        box-shadow: 0px 10px 52px rgba(0, 0, 0, 0.08);
+    }
+
+    &:hover .card-testimonials__city{
+        color: $accent;
+    }
+}
+.card-testimonials__img {
+}
+.card-testimonials__body {
+    padding: 30px;
+}
+
+.card-testimonials__text{
+    margin-bottom: 23px;
+}
+
+.card-testimonials__name {
+    font-size: 18px;
+    font-weight: 700;
+}
+.card-testimonials__city {
+    color: $cta;
+}

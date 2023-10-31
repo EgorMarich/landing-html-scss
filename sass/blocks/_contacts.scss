@@ -1,0 +1,41 @@
+.contacts {
+    position: relative;
+
+    padding-top: 80px;
+    padding-bottom: 10px;
+    background-image: url(../../img/Bg.svg);
+    background-size: cover;
+    color: #fff;
+
+
+    &:after{
+
+        position: absolute;
+        bottom: 0;
+        left: 55%;
+
+
+        content: "";
+        background-image: url(../../img/i4.png);
+        background-size: initial;
+        display: block;
+        width: 478px;
+        height: 547px;
+    }
+}
+
+.conatct__info {
+    max-width: 360px;
+}
+
+.contact__title{
+    margin-bottom: 15px;
+}
+
+.contact__text{
+    margin-bottom: 30px;
+    max-width: 242px;
+}
+
+.button {
+}

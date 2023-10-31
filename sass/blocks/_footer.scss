@@ -1,0 +1,42 @@
+.footer {
+    padding-top: 86px;
+    padding-bottom: 82px;
+}
+
+.footer__info {
+}
+.footer__logo {
+    margin-bottom: 15px;
+}
+
+.footer__row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__nav{
+    display: flex;
+    align-items: center;
+    gap: 85px;
+}
+
+.footer__info-text {
+    max-width: 300px;
+    margin-bottom: 40px;
+}
+
+.footer__social {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.footer__nav-block__title{
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.footer__nav-list li{
+    margin-bottom: 13px;
+}
